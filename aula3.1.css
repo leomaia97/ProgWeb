@@ -1,3 +1,7 @@
 body{
-	background-image: url(nubank-logo.png,nu-icon.png);
+	background-image: url("nubank-logo.png"), url("nu-icon.png");
+	background-position: bottom left, bottom right;
+	background-size: 200px 100px, 100px 100px;
+	background-repeat: no-repeat, no-repeat;
+	/*background-repeat: repeat-y, repeat-y;*/
 }
