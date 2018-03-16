@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Exercicio 1 - Quociente</title>
+	</head>
+	
+	<body>
+  
+		<script>
+		function botao()
+		{ 
+			var valor1 = document.quociente.valor1.value;
+			var valor2 = document.quociente.valor2.value;
+			var calc;
+				
+			if((valor2 != 0))
+			{
+				calc=valor1/valor2;
+				alert("Quociente é: " + calc);
+			}
+			else
+			{
+				alert("Divisão por Zero");
+			}
+		}
+		</script>
+
+	  <form action="" name="quociente" method="POST">
+		 VALOR 1:<input type="textbox" name="valor1" id="valor"><br>
+		 VALOR 2:<input type="textbox" name="valor2" id="valor"><br>
+		<input type="submit" value="Enviar" onclick="botao()">
+	  </form>
+
+	</body>
+</html>
+
